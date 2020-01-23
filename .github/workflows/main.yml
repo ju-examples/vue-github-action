@@ -15,7 +15,7 @@ jobs: # jobs
       - name: npm install # 
         run: npm install # npm install
 
-      - name: npm run build # 
+      - name: build # 
         run: npm run build # code build
 
       - name: deploy # 배포
