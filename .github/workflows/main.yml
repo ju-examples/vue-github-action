@@ -26,4 +26,4 @@ jobs: # jobs
           aws s3 cp \
             --recursive \
             --region ap-northeast-2 \
-            build s3://vue-github-action
+            dist s3://vue-github-action
